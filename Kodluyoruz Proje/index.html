@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bi'UMUT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bİ'UMUT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" >Anasayfa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Topluluk
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="about.html">Hakkımızda</a></li>
+                            <li><a class="dropdown-item" href="contact.html">İletişim</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Keşfet
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+
+                            <li><a class="dropdown-item" href="kadin_haklari.html">Kadın Hakları</a></li>
+                            <li><a class="dropdown-item" href="cocukhakları.html">Çocuk Hakları</a></li>
+                            <li><a class="dropdown-item" href="ifadeozgurlugu.html">İfade Özgürlüğü</a></li>
+                            <li><a class="dropdown-item" href="mültecihakları.html">Mülteci Hakları</a></li>
+                            <li><a class="dropdown-item" href="savasvesivilhaklar.html">Savaş ve Sivil Hakları</a></li>
+                            <li><a class="dropdown-item" href="adalet_hukuk.html">Adalet ve Hukuk</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Bağış</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Hero Section -->
+      <div class="hero-section p">
+        <p>"Bütün insanlar özgür, onur ve haklar bakımından eşit doğarlar."</p>
+        <br>
+        <i> Birleşmiş Milletler İnsan Hakları Evrensel Beyannamesi, Madde 1</i>
+    </div>
+
+  <!-- Bootstrap Slider -->
+<div class="container my-4">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./public/slider images/Resim (4).jpg" class="d-block w-100 rounded" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img src="./public/slider images/Resim (6).jpg" class="d-block w-100 rounded" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img src="./public/slider images/Resim (7).jpg" class="d-block w-100 rounded" alt="Third slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+    <div class="hero-section">
+        <p>İnsan hakları herkesin doğuştan sahip olduğu temel haklardır. Aşağıdaki başlıklardan birine tıklayarak daha fazla bilgi edinebilirsiniz.</p>
+    </div>
+  
+
+    <!-- Cards Section -->
+    <div class="row g-4 justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal1">
+                <img src="./public/Kadın Hakları.jpg" class="card-img-top" alt="Kadın Hakları">
+                <div class="card-body">
+                    <h5 class="card-title">Kadın Hakları</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal2">
+                <img src="./public/Çocuk Hakları.jpg" class="card-img-top" alt="Çocuk Hakları">
+                <div class="card-body">
+                    <h5 class="card-title">Çocuk Hakları</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal3">
+                <img src="./public/İfade Özgürlüğü.jpg" class="card-img-top" alt="İfade Özgürlüğü">
+                <div class="card-body">
+                    <h5 class="card-title">İfade Özgürlüğü</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal4">
+                <img src="./public/Mülteci Hakları.jpg" class="card-img-top" alt="Mülteci Hakları">
+                <div class="card-body">
+                    <h5 class="card-title">Mülteci Hakları</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal5">
+                <img src="./public/Savaş ve Sivil Haklar.jpg" class="card-img-top" alt="Savaş ve Sivil Haklar">
+                <div class="card-body">
+                    <h5 class="card-title">Savaş ve Sivil Haklar</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-4">
+            <div class="card topic-card" data-bs-toggle="modal" data-bs-target="#modal6">
+                <img src="./public/Adalet ve Hukuk.jpg" class="card-img-top" alt="Adalet ve Hukuk">
+                <div class="card-body">
+                    <h5 class="card-title">Adalet ve Hukuk</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kadın Hakları</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Kadınların eşit haklara sahip olduğu bir dünya mümkün! Toplumsal cinsiyet eşitliği için her kadının eğitim, sağlık, iş hayatı ve hukuki süreçlerde ayrımcılığa uğramadan var olması gerekiyor. Kadınların haklarını savunarak şiddete, ayrımcılığa ve eşitsizliğe karşı hep birlikte mücadele edebiliriz.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Çocuk Hakları</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Her çocuk, sevgi, eğitim ve güvenli bir yaşam hakkına sahiptir. Ancak milyonlarca çocuk, yoksulluk, şiddet ve istismar nedeniyle temel haklarından mahrum kalıyor. Çocukların korunması, eğitime erişimi ve sağlıklı bir geleceğe sahip olması için hepimiz sorumluluk taşıyoruz.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">İfade Özgürlüğü</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Özgür düşünce, demokratik bir toplumun temel taşlarından biridir. Her bireyin korkmadan düşüncelerini ifade edebildiği bir ortam, adil ve eşit bir dünya için vazgeçilmezdir. Sansüre, baskıya ve susturulmaya karşı birlikte mücadele ederek herkesin sesini duyurmasını sağlayabiliriz.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mülteci Hakları</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Zorla yerinden edilen milyonlarca insan, temel yaşam haklarından yoksun bırakılıyor. Mülteciler, güvenli bir yuva, eğitim ve çalışma hakkına sahiptir. Onlara destek olmak, insanlık adına atılacak en büyük adımlardan biridir. Birlikte daha kapsayıcı ve şefkatli bir dünya inşa edebiliriz.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Savaş ve Sivil Haklar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Savaşlar, en çok masum sivilleri etkiler. Çatışma bölgelerinde yaşayan insanlar, temel haklarını kaybederken, şiddet ve zorbalık altında hayatta kalmaya çalışıyor. Barış, güvenlik ve adalet için sesimizi yükseltmeli, insan haklarının savaş meydanlarında çiğnenmesine karşı durmalıyız.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Adalet ve Hukuk</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Hukukun üstünlüğü, adil bir toplumun temelidir. Her birey, eşit haklara sahip olmalı ve adalet önünde ayrımcılığa uğramadan yargılanmalıdır. İnsan haklarını koruyan güçlü bir hukuk sistemi inşa etmek, hepimizin sorumluluğudur. Adaletin sağlanması için birlikte hareket edelim!
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Bİ'UMUT</h5>
+                    <p>İnsan hakları evrenseldir. Her bireyin özgür, eşit ve onurlu bir yaşam sürmesi için çalışıyoruz. <br>
+                        Daha fazla bilgi için bizimle iletişime geçin.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 form-container">
+                    <h5>Bültenimize Abone Olun</h5>
+                    <form>
+                        <div class="mb-3" style="max-width: 250px;">
+                            <input type="email" class="form-control" placeholder="E-posta adresinizi girin">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Abone Ol</button>
+                    </form>
+                    <div class="mt-3">
+                        <a href="index.html">Anasayfa</a> |
+                        <a href="about.html">Hakkımızda</a> |
+                        <a href="contact.html">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
